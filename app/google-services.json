@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000577779363",
+    "project_id": "lms-javatest",
+    "storage_bucket": "lms-javatest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000577779363:android:009a2884a9cb03ff8a2116",
+        "android_client_info": {
+          "package_name": "com.devhub.lms_javatest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000577779363-c8ke4osro48av6474ik5h06ipmv16t8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKz9DabAlRWL1enyObGN3KzEYSCVb62bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000577779363-c8ke4osro48av6474ik5h06ipmv16t8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

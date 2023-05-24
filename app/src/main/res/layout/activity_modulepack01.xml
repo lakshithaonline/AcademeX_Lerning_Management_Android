@@ -1,0 +1,333 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bottom_backgorund" />
+
+            <TextView
+                android:id="@+id/loginHeader"
+                android:layout_width="357dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="37dp"
+                android:text="Mobile Application Development"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/loginHeader2"
+                android:layout_width="193dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"
+                android:text="Dr. Pulasthi Gunawardana"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/module01back"
+                android:layout_width="64dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/white_btn_bg"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/backimgnew"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <View
+                android:id="@+id/view15"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="180dp"
+                android:background="@drawable/modulewall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/white_btn_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Announcements | SE303.3"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="195dp"
+                android:layout_marginLeft="35dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Student Feedback: SE304.3"
+                android:textColor="@color/black"
+                android:layout_marginTop="246.5dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/annbtn01"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="312dp"
+                android:layout_marginTop="247dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Submit"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Message to the students: \n\nPlease provide anonymous feedback on each module in NLEARN to help improve courses and the computing \ndegree program at NSBM. \n\nThank you for your valuable feedback."
+                android:textColor="@color/black"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="35dp"/>
+
+
+            <View
+                android:id="@+id/view16"
+                android:layout_width="match_parent"
+                android:layout_height="541dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/modulewall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/white_btn_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Week 1"
+                android:textColor="@color/black"
+                android:layout_marginTop="456dp"
+                android:layout_marginLeft="35dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Introduction to SQA"
+                android:textColor="@color/black"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/week1btn"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="511dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Download"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Assignment"
+                android:textColor="@color/black"
+                android:layout_marginTop="545dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Explore the Top 10 Software Failures: \nLessons Learned and Insights."
+                android:textColor="@color/black"
+                android:layout_marginTop="570dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/week01upload"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="571dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Upload"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="625dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/white_btn_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Week 2 - Importance in Testing"
+                android:textColor="@color/black"
+                android:layout_marginTop="631dp"
+                android:layout_marginLeft="35dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Assignment"
+                android:textColor="@color/black"
+                android:layout_marginTop="685dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Briefly explain the importance of Testing: "
+                android:textColor="@color/black"
+                android:layout_marginTop="712dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/week2up"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="713dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Upload"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="In-Class Test: "
+                android:textColor="@color/black"
+                android:layout_marginTop="762dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/week2_1up"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="763dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Upload"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="813dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/white_btn_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Week 3 - Test Case"
+                android:textColor="@color/black"
+                android:layout_marginTop="821dp"
+                android:layout_marginLeft="35dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Test Design Techniques"
+                android:textColor="@color/black"
+                android:layout_marginTop="871dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/week3btn1"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="872dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Download"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Study Resources"
+                android:textColor="@color/black"
+                android:layout_marginTop="910dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Use this test case template for further \nstudies:"
+                android:textColor="@color/black"
+                android:layout_marginTop="935dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/week3btn2"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="303dp"
+                android:layout_marginTop="937dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Download"
+                android:textAllCaps="false"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

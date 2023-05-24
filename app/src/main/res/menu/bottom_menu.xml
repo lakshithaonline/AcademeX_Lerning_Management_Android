@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_dashboard"
+        android:icon="@drawable/baseline_space_dashboard_24"
+        android:title="Dashboard"/>
+    <item
+        android:id="@+id/bottom_module"
+        android:icon="@drawable/baseline_subject_24"
+        android:title="Modules"/>
+    <item
+        android:id="@+id/bottom_schedule"
+        android:icon="@drawable/baseline_schedule_24"
+        android:title="Schedules"/>
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"/>
+
+</menu>
