@@ -28,7 +28,7 @@
             android:name=".RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".ExamActivity"
             android:exported="false" />
         <activity
             android:name=".ScheduleActivity"

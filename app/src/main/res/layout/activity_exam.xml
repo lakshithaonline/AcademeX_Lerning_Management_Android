@@ -1,0 +1,418 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModuleGalleryActivity">
+
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/module_gallery_containers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loginHeader"
+        android:layout_width="321dp"
+        android:layout_height="25dp"
+        android:text="BSc MIS Special (UGC)"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view13"
+        app:layout_constraintEnd_toEndOf="@+id/view13"
+        app:layout_constraintStart_toStartOf="@+id/view13"
+        app:layout_constraintTop_toTopOf="@+id/view13"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/loginHeader2"
+        android:layout_width="193dp"
+        android:layout_height="19dp"
+        android:text="3rd Year 1st Semester"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view13"
+        app:layout_constraintEnd_toEndOf="@+id/view13"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="@+id/view13"
+        app:layout_constraintTop_toBottomOf="@+id/loginHeader"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:background="@drawable/white_btn_bg"
+        android:text="Change Semester"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:iconTint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/view13"
+        app:layout_constraintEnd_toEndOf="@+id/view13"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/view13"
+        app:layout_constraintTop_toBottomOf="@+id/loginHeader2"
+        app:layout_constraintVertical_bias="0.576"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/modulewall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Application Development"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Pulasthi Gunawardana"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="57dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module Code: SE303.3"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="105dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Enroll"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="105dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Check Attendance"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/modulewall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Quality Assurance"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="183dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ms.Pavithra Subhashini"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="209dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module Code: SE303.3"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="232dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="257dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Enroll"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="257dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Check Attendance"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="320dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/modulewall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information Assurance and Security"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="333dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr. Isuru Sri Bandara"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="359dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module Code: SE303.3"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="382dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="405dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Enroll"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="405dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Check Attendance"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="470dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/modulewall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advanced Database Management System"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="482dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr. Naji Saravanabavan"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="509dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module Code: SE303.3"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="534dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Enroll"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                android:layout_marginTop="559dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Check Attendance"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                android:layout_marginTop="559dp"
+                android:layout_marginLeft="135dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="620dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/modulewall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT Project Management"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="634dp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Pulasthi Gunawardana"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="662dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module Code: SE303.3"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="686dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Enroll"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                android:layout_marginTop="710dp"
+                android:layout_marginLeft="40dp"/>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:background="@drawable/white_btn_bg"
+                android:text="Check Attendance"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconTint="@color/colorWhite"
+                android:layout_marginTop="710dp"
+                android:layout_marginLeft="135dp"/>
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_backgorund"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,7 @@
         android:title="Schedules"/>
     <item
         android:id="@+id/bottom_profile"
-        android:icon="@drawable/baseline_person_24"
-        android:title="Profile"/>
+        android:icon="@drawable/baseline_assignment_2422"
+        android:title="Exams"/>
 
 </menu>

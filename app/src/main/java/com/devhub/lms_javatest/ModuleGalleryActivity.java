@@ -59,7 +59,7 @@ public class ModuleGalleryActivity extends AppCompatActivity {
                     finish();
                     return true;
                 case R.id.bottom_profile:
-                    startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                    startActivity(new Intent(getApplicationContext(), ExamActivity.class));
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                     finish();
                     return true;

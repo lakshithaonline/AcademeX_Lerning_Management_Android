@@ -9,8 +9,11 @@
 
     <View
         android:id="@+id/view9"
-        android:layout_width="346dp"
+        android:layout_width="0dp"
         android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/module_gallery_containers"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
