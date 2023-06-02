@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bottom_backgorund" />
+
+        <TextView
+            android:id="@+id/loginHeader"
+            android:layout_width="357dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="37dp"
+            android:text="Daily Schedules (20.2/20.3)"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/loginHeader2"
+            android:layout_width="193dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="-357dp"
+            android:layout_marginTop="65dp"
+            android:text="3rd Year | 1st Semester"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/module01back"
+            android:layout_width="64dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-192dp"
+            android:background="@drawable/white_btn_bg"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/backimgnew"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:layout_marginTop="00dp"
+                android:background="@drawable/modulewall"
+                android:divider="@android:color/white"
+                android:dividerHeight="15dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
