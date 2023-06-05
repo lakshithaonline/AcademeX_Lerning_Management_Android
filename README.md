@@ -16,9 +16,7 @@ This project utilizes the following technologies:
 - ![Java](https://img.shields.io/badge/-Java-orange?logo=java&logoColor=white&labelColor=007396)
 - ![Android SDK](https://img.shields.io/badge/-Android%20SDK-green?logo=android&logoColor=white&labelColor=3DDC84)
 - ![Firebase](https://img.shields.io/badge/-Firebase-yellow?logo=firebase&logoColor=white&labelColor=FFCA28)
-  - Backend-as-a-Service (BaaS) platform for cloud storage and real-time database
 - ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white&labelColor=181717)
-  - Version control system for tracking changes in source code
 
 ##License
 This project is licensed under the MIT License.
