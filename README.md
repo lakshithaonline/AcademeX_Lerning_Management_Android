@@ -20,17 +20,17 @@ This project utilizes the following technologies:
 
 ## Screenshots
 
-| Screenshot 1                 | Screenshot 2                 | Screenshot 3                 | 
+| Get Started                  | Sign In                      | Sign Up                      | 
 | ---------------------------- | ---------------------------- | ---------------------------- | 
 | ![Screenshot 1](ProjectDetails/Screenshot_1686324801.png) | ![Screenshot 2](ProjectDetails/Screenshot_1686324788.png) | ![Screenshot 3](ProjectDetails/Screenshot_1686324791.png) 
 | *Caption for Screenshot 1*   | *Caption for Screenshot 2*   | *Caption for Screenshot 3*   |
 
-| Screenshot 4                 | Screenshot 5                 | Screenshot 6                 |
+| Dashboard                    | Module Gallery               | Module                       |
 | ---------------------------- | ---------------------------- | ---------------------------- |
 | ![Screenshot 5](ProjectDetails/Screenshot_1686324752.png) | ![Screenshot 6](ProjectDetails/Screenshot_1686324756.png) | ![Screenshot 7](ProjectDetails/Screenshot_1686324758.png)
 | *Caption for Screenshot 4*   | *Caption for Screenshot 5*   | *Caption for Screenshot 6*   |
 
-| Screenshot 7                 | Screenshot 8                 | Screenshot 9                 |
+| Schedule                     | Scheduled Slots              | Exam Enrollment              |
 | ---------------------------- | ---------------------------- | ---------------------------- |
 | ![Screenshot 5](ProjectDetails/Screenshot_1686324765.png) | ![Screenshot 6](ProjectDetails/Screenshot_1686324771.png) | ![Screenshot 7](ProjectDetails/Screenshot_1686324774.png)
 | *Caption for Screenshot 7*   | *Caption for Screenshot 8*   | *Caption for Screenshot 9*   |
