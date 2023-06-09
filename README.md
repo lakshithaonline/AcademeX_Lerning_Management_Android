@@ -28,12 +28,12 @@ This project utilizes the following technologies:
 | Screenshot 4                 | Screenshot 5                 | Screenshot 6                 |
 | ---------------------------- | ---------------------------- | ---------------------------- |
 | ![Screenshot 5](ProjectDetails/Screenshot_1686324752.png) | ![Screenshot 6](ProjectDetails/Screenshot_1686324756.png) | ![Screenshot 7](ProjectDetails/Screenshot_1686324758.png)
+| *Caption for Screenshot 4*   | *Caption for Screenshot 5*   | *Caption for Screenshot 6*   |
 
-| *Caption for Screenshot 5*   | *Caption for Screenshot 6*   | *Caption for Screenshot 7*   |
-| Screenshot 7                 | Screenshot 7                 | Screenshot 8                 |
+| Screenshot 7                 | Screenshot 8                 | Screenshot 9                 |
 | ---------------------------- | ---------------------------- | ---------------------------- |
-| ![Screenshot 5](ProjectDetails/Screenshot_1686324752.png) | ![Screenshot 6](ProjectDetails/Screenshot_1686324756.png) | ![Screenshot 7](ProjectDetails/Screenshot_1686324758.png)
-| *Caption for Screenshot 5*   | *Caption for Screenshot 6*   | *Caption for Screenshot 7*   |
+| ![Screenshot 5](ProjectDetails/Screenshot_1686324765.png) | ![Screenshot 6](ProjectDetails/Screenshot_1686324771.png) | ![Screenshot 7](ProjectDetails/Screenshot_1686324774.png)
+| *Caption for Screenshot 7*   | *Caption for Screenshot 8*   | *Caption for Screenshot 9*   |
 
 
 ## License
