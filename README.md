@@ -18,5 +18,17 @@ This project utilizes the following technologies:
 - ![Firebase](https://img.shields.io/badge/-Firebase-yellow?logo=firebase&logoColor=white&labelColor=FFCA28)
 - ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white&labelColor=181717)
 
+## Screenshots
+
+| Screenshot 1                 | Screenshot 2                 |
+| ---------------------------- | ---------------------------- |
+| ![Screenshot 1](ProjectDetails/Screenshot_1686324801.png) | ![Screenshot 2](ProjectDetails/Screenshot_1686324788.png) |
+| *Caption for Screenshot 1*   | *Caption for Screenshot 2*   |
+
+| Screenshot 3                 | Screenshot 4                 |
+| ---------------------------- | ---------------------------- |
+| ![Screenshot 3](ProjectDetails/Screenshot_1686324791.png | ![Screenshot 4](ProjectDetails/Screenshot_1686324752.png) |
+| *Caption for Screenshot 3*   | *Caption for Screenshot 4*   |
+
 ## License
 This project is licensed under the MIT License.
